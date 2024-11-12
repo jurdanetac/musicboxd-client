@@ -1,0 +1,54 @@
+/*
+Reset CSS
+  - Remove default styles from the browser
+  - Normalize styles across browsers
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 72px;
+
+  padding: 1rem;
+  background-color: #14181c;
+  color: white;
+}
+
+.album-poster {
+  background-color: white;
+  width: 150px;
+  height: 253px;
+}
+
+main {
+  flex: 1;
+  background-color: #1f262d;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+}
+
+* {
+  list-style: none;
+}
+
+main div {
+  display: flex;
+  gap: 1rem;
+}
